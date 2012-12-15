@@ -43,7 +43,7 @@ Example:
 
 *gcc -c -ansi -Wall -pedantic sample_test_stub.c*
 
-*gcc sample_test_stub.o -L lib/ -lSmalloc -o test_executable*
+*gcc sample_test_stub.o -L lib/ -lS_malloc -o test_executable*
 
 
 *S_malloc Logs*
