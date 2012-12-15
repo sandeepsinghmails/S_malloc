@@ -32,6 +32,7 @@ to call 2 functions: *add_allocated_node()* and *remove_allocated_node* in your 
 for malloc() and free() Library Functions.
 
 *How To Compile the S_malloc Library*
+
 $make clean
 $make
 
