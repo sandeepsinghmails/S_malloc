@@ -41,7 +41,9 @@ while creating your Final Executable.
 
 Example:
 
-*gcc test_stub.o -L lib/ -lSmalloc -o test_executable*
+*gcc -c -ansi -Wall -pedantic sample_test_stub.c*
+
+*gcc sample_test_stub.o -L lib/ -lSmalloc -o test_executable*
 
 
 *S_malloc Logs*
