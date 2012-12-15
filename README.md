@@ -31,6 +31,9 @@ As shown in the file *sample_test_stub.c* provided with the S_malloc source code
 to call 2 functions: *add_allocated_node()* and *remove_allocated_node* in your wrapper functions 
 for malloc() and free() Library Functions.
 
+*How To Compile the S_malloc Library*
+$make clean
+$make
 
 *How To Link S_malloc Library To Your Source Code*
 
