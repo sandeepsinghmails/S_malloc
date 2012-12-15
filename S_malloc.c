@@ -115,7 +115,7 @@ void print_nodelist_to_file ()
 {
 	ListNode *temp = head;
 
-	fptr = fopen ("mem_debug_logfile.txt", "w");
+	fptr = fopen ("S_malloc_logs.txt", "w");
 	if (NULL==fptr)
 	{
 		printf ("\nFailure: Cannot Open Log-File for Writing\n\n");
