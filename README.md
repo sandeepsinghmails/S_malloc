@@ -15,6 +15,7 @@ Hence, at any instant, you can easily find out how much Heap Memory was allocate
 I will be adding more features to this Library in the later versions.
 
 *Current Version is Available as a Static Library*
+
 The Current Version of S_malloc Library is provided in the form of a Static Library.
 I may provide a separate Makefile if you intend to use it as a Dynamic Library, in the near future.
 
@@ -44,9 +45,11 @@ Example:
 
 
 *S_malloc Logs*
+
 Once you have Integrated this Library with your executable, a Log-File named: *S_malloc_logs.txt* will be generated at 
 the same path from where you are executing your executable.
 
 *Comments/Feedback*
+
 If you like to share any feedback/comments on this Utility, please feel free to mail me at sandeepsinghmails@gmail.com
 
