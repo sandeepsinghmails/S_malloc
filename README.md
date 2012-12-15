@@ -34,6 +34,7 @@ for malloc() and free() Library Functions.
 *How To Compile the S_malloc Library*
 
 $make clean
+
 $make
 
 *How To Link S_malloc Library To Your Source Code*
