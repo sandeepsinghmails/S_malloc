@@ -1,6 +1,7 @@
-**S_malloc Library**
+**The S_malloc Library**
+========================
 
-Smalloc is a Run-Time Memory Debugger Library.
+S_malloc is a Run-Time Memory Debugger Library.
 
 It can be Integrate with any Project's Source Code with minimal code changes.
 
@@ -14,12 +15,12 @@ Hence, at any instant, you can easily find out how much Heap Memory was allocate
 
 I will be adding more features to this Library in the later versions.
 
-*Current Version is Available as a Static Library*
+**Current Version is Available as a Static Library**
 
 The Current Version of S_malloc Library is provided in the form of a Static Library.
 I may provide a separate Makefile if you intend to use it as a Dynamic Library, in the near future.
 
-*What Changes are required in your Source Code to Integrate it with S_malloc Library*
+**What Changes are required in your Source Code to Integrate it with S_malloc Library**
 
 Very small Changes are required to Integrate S_malloc Library with your Source Code.
 
@@ -31,13 +32,13 @@ As shown in the file *sample_test_stub.c* provided with the S_malloc source code
 to call 2 functions: *add_allocated_node()* and *remove_allocated_node* in your wrapper functions 
 for malloc() and free() Library Functions.
 
-*How To Compile the S_malloc Library*
+**How To Compile the S_malloc Library**
 
 $make clean
 
 $make
 
-*How To Link S_malloc Library To Your Source Code*
+**How To Link S_malloc Library To Your Source Code**
 
 In your Project, you must be creating some final executable by Linking .o (object) Files.
 
@@ -51,12 +52,14 @@ Example:
 *gcc sample_test_stub.o -L lib/ -lS_malloc -o test_executable*
 
 
-*S_malloc Logs*
+**S_malloc Logs**
 
 Once you have Integrated this Library with your executable, a Log-File named: *S_malloc_logs.txt* will be generated at 
 the same path from where you are executing your executable.
 
-*Comments/Feedback*
+**Comments/Feedback**
 
-If you like to share any feedback/comments on this Utility, please feel free to mail me at sandeepsinghmails@gmail.com
+Feedback/ Comments on the S_malloc Library are always Welcome.
+
+If you would like to share any feedback/comments on this Utility, please feel free to mail me at sandeepsinghmails@gmail.com
 
