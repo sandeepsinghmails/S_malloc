@@ -20,7 +20,7 @@ I will be adding more features to this Library in the later versions.
 The Current Version of S_malloc Library is provided in the form of a Static Library.
 I may provide a separate Makefile if you intend to use it as a Dynamic Library, in the near future.
 
-**What Changes are required in your Source Code for Integration with S_malloc Library**
+**What Changes are required in your Source Code for Integration with S_malloc Library ?**
 
 Very small Changes are required to Integrate S_malloc Library with your Source Code.
 
@@ -32,13 +32,13 @@ As shown in the file *sample_test_stub.c* provided with the S_malloc source code
 to call 2 functions: *add_allocated_node()* and *remove_allocated_node* in your wrapper functions 
 for malloc() and free() Library Functions.
 
-**How To Compile the S_malloc Library**
+**How To Compile the S_malloc Library ?**
 
 $make clean
 
 $make
 
-**How To Link S_malloc Library To Your Source Code**
+**How To Link S_malloc Library To Your Source Code ?**
 
 In your Project, you must be creating some final executable by Linking .o (object) Files.
 
