@@ -1,4 +1,4 @@
-**The S_malloc Library**
+**S_malloc Library**
 ========================
 
 S_malloc is a Run-Time Memory Debugger Library.
