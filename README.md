@@ -20,7 +20,7 @@ I will be adding more features to this Library in the later versions.
 The Current Version of S_malloc Library is provided in the form of a Static Library.
 I may provide a separate Makefile if you intend to use it as a Dynamic Library, in the near future.
 
-**What Changes are required in your Source Code to Integrate it with S_malloc Library**
+**What Changes are required in your Source Code for Integration with S_malloc Library**
 
 Very small Changes are required to Integrate S_malloc Library with your Source Code.
 
